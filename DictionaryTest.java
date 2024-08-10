@@ -7,6 +7,7 @@ public class DictionaryTest {
 		
 		Dictionary d = new Dictionary();
 		
+		System.out.println("Loading dictionary from file");
 		try {
 			d.load();
 		} catch (IOException e) {
